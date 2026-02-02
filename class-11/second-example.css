@@ -81,3 +81,55 @@ body {
 }
 
 /* MEDIA QUERIES */
+
+/* small devices */
+@media screen and (min-width: 300px){
+
+    .hero h1 {
+        font-size: 2.6rem;
+    }
+
+    .feature {
+        padding: 2rem;
+    }
+}
+
+/* Large mobile / tablet */
+@media screen and (min-width: 301px) and (max-width: 600px) {
+
+    .features {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .feature {
+        /* flex: 1 1 45%; */
+        flex-grow: 1;
+        flex-shrink: 1;
+        flex-basis: 45%;
+    }
+}
+
+/* Desktop */
+@media screen and (min-width: 601px) and (max-width: 900px){
+
+    .features {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .feature {
+        flex: 1;
+        max-width: 24%;
+    }
+
+    .hero h1 {
+        font-size: 4rem;
+    }
+
+    .cta h2 {
+        font-size: 2.8rem;
+    }
+
+}
