@@ -4,8 +4,11 @@
     padding: 0;
 }
 
-body {
+html {
     font-size: 62.5%;
+}
+
+body {
     font-family: system-ui, Arial, sans-serif;
     background-color: #f4f6f8;
     color: #222;
