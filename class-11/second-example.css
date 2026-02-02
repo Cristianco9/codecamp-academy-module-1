@@ -6,81 +6,75 @@
 
 body {
     font-size: 62.5%;
-    font-family: Arial, sans-serif;
-    background-color: #eaeaea;
-    display: flex;
-    justify-content: center;
+    font-family: system-ui, Arial, sans-serif;
+    background-color: #f4f6f8;
+    color: #222;
 }
 
-.page {
-    width: 100%;
-    max-width: 120rem;
-    padding: 1.6rem;
-    display: flex;
-    flex-direction: column;
-    gap: 1.6rem;
-}
-
-.header {
-    background-color: #222;
+.hero {
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
     color: white;
-    padding: 2rem;
     text-align: center;
+    padding: 4rem 2rem;
 }
 
-.header h1 {
-    font-size: 2.6rem;
-}
-
-.header p {
-    font-size: 1.4rem;
-}
-
-.layout {
-    display: flex;
-    flex-direction: column;
-    gap: 1.6rem;
-}
-
-.sidebar {
-    background-color: #444;
-    color: white;
-    padding: 1.6rem;
-}
-
-.sidebar h2 {
-    font-size: 1.8rem;
+.hero h1 {
+    font-size: 3.2rem;
     margin-bottom: 1rem;
 }
 
-.sidebar ul {
-    list-style: none;
+.hero p {
+    font-size: 1.6rem;
 }
 
-.sidebar li {
-    font-size: 1.4rem;
-    padding: 0.6rem 0;
-}
-
-.content {
+.features {
     display: flex;
     flex-direction: column;
-    gap: 1.2rem;
+    gap: 2rem;
+    padding: 3rem 2rem;
 }
 
-.card {
+.feature {
     background-color: white;
     padding: 2.4rem;
+    border-radius: 1rem;
     text-align: center;
+}
+
+.feature h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.feature p {
+    font-size: 1.4rem;
+}
+
+.cta {
+    background-color: #111;
+    color: white;
+    text-align: center;
+    padding: 3rem 2rem;
+}
+
+.cta h2 {
+    font-size: 2.4rem;
+    margin-bottom: 2rem;
+}
+
+.cta button {
     font-size: 1.6rem;
-    border-radius: 0.6rem;
+    padding: 1.2rem 3rem;
+    border: none;
+    border-radius: 3rem;
+    cursor: pointer;
 }
 
 .footer {
-    background-color: #ccc;
     text-align: center;
-    padding: 1.2rem;
+    padding: 1.6rem;
     font-size: 1.3rem;
+    background-color: #ddd;
 }
 
 /* MEDIA QUERIES */
