@@ -2,6 +2,14 @@
     --main-blue: #667eea;
     --main-purple: #764ba2;
     --main-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
+    --b-color-1: #8903fef4;
+    --b-color-2: #b33aff;
+    --b-color-3: #ff00ff;
+    --b-color-4: #fe03d8f4;
+    --b-color-5: #fe0389f4;
+    --b-color-6: #fe0357f4;
+    --b-color-7: #fe0325f4;
+    --b-color-8: #fe0303f4;
 }
 
 * {
@@ -46,3 +54,34 @@ body {
 }
 
 /* CHALLENGE */
+.b-1 {
+    background-color: var(--b-color-1);
+}
+
+.b-2 {
+    background-color: var(--b-color-2);
+}
+
+.b-3 {
+    background-color: var(--b-color-3);
+}
+
+.b-4 {
+    background-color: var(--b-color-4);
+}
+
+.b-5 {
+    background-color: var(--b-color-5);
+}
+
+.b-6 {
+    background-color: var(--b-color-6);
+}
+
+.b-7 {
+    background-color: var(--b-color-7);
+}
+
+.b-8 {
+    background-color: var(--b-color-8);
+}
