@@ -1,0 +1,71 @@
+/* ========================
+CSS VARIABLES
+======================== */
+:root {
+    --bg-page: #0f172a;
+
+    --box-1: #38bdf8;
+    --box-2: #22c55e;
+    --box-3: #f97316;
+    --box-4: #a855f7;
+    --box-5: #eab308;
+    --box-6: #ef4444;
+}
+
+/* ========================
+BASE CONFIG
+======================== */
+html {
+    font-size: 62.5%;
+    /* 1rem = 10px */
+}
+
+body {
+    margin: 0;
+    padding: 2rem;
+    background-color: var(--bg-page);
+    font-family: system-ui, sans-serif;
+}
+
+/* ========================
+GRID CONTAINER
+======================== */
+.grid-container {
+    max-width: 90rem;
+    margin: 0 auto;
+    display: grid;
+    gap: 1.6rem;
+}
+
+/* ========================
+BOXES
+======================== */
+.box {
+    height: 12rem;
+    border-radius: 1.2rem;
+}
+
+/* Box colors via variables */
+.box-1 {
+    background-color: var(--box-1);
+}
+
+.box-2 {
+    background-color: var(--box-2);
+}
+
+.box-3 {
+    background-color: var(--box-3);
+}
+
+.box-4 {
+    background-color: var(--box-4);
+}
+
+.box-5 {
+    background-color: var(--box-5);
+}
+
+.box-6 {
+    background-color: var(--box-6);
+}
