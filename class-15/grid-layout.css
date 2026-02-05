@@ -13,6 +13,15 @@ CSS VARIABLES
 }
 
 /* ========================
+UNIVERSAL SELECTOR
+======================== */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* ========================
 BASE CONFIG
 ======================== */
 html {
@@ -21,7 +30,6 @@ html {
 }
 
 body {
-    margin: 0;
     padding: 2rem;
     background-color: var(--bg-page);
     font-family: system-ui, sans-serif;
@@ -43,6 +51,8 @@ BOXES
 .box {
     height: 12rem;
     border-radius: 1.2rem;
+    font-size: 3rem;
+    text-align: center;
 }
 
 /* Box colors via variables */
@@ -68,4 +78,68 @@ BOXES
 
 .box-6 {
     background-color: var(--box-6);
+}
+
+/* ========================
+MEDIA QUERIES
+======================== */
+
+/* 300px - 600px (Mobile: single column) */
+@media screen and (max-width: 600px) {
+
+    .grid-container {
+        grid-template-columns: 1fr;
+    }
+
+    .box {
+        height: 10rem;
+    }
+}
+
+/* 601px - 900px (Tablet: two columns) */
+@media screen and (min-width: 601px) and (max-width: 900px) {
+
+    .grid-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .box {
+        height: 12rem;
+    }
+}
+
+/* 901px - 1200px (Desktop: three columns */
+@media screen and (min-width: 901px) and (max-width: 1200px) {
+
+    .grid-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .box {
+        height: 20rem;
+    }
+}
+
+/*  > 1200px (Large desktop: feature layout) */
+@media screen and (min-width: 1201px) {
+
+    .grid-container {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .box {
+        height: 25rem;
+    }
+
+    .box-1 {
+        grid-column: span 3;
+    }
+
+    .box-5 {
+        grid-column: span 2;
+    }
+
+    .box-6 {
+        grid-column: span 4;
+    }
 }
