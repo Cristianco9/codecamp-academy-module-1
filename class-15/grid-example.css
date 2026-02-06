@@ -150,17 +150,17 @@ MEDIA QUERIES
 }
 
 /* >1200px (Large screens: full dashboard) */
-@media screen and (min-width: 1201px) {
-    
+@media (min-width: 120.1rem) {
     .dashboard {
         grid-template-columns: 2fr 3fr 3fr;
-        grid-template-areas: 
-        /* challenge */
-        ;
+        grid-template-areas:
+            "header header header"
+            "sidebar widget-1 widget-2"
+            "sidebar widget-3 widget-3"
+            "footer footer footer";
     }
 
     .widget-3 {
         display: block;
     }
-    
 }
