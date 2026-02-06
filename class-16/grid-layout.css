@@ -1,0 +1,86 @@
+/* =========================
+DESIGN VARIABLES
+========================= */
+:root {
+    --page-bg: #020617;
+
+    --hero: #2563eb;
+    --nav: #0ea5e9;
+
+    --article-1: #22c55e;
+    --article-2: #a855f7;
+    --article-3: #f97316;
+
+    --aside: #eab308;
+    --footer: #ef4444;
+}
+
+/* =========================
+BASE RESET
+========================= */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    padding: 2rem;
+    background-color: var(--page-bg);
+    font-family: system-ui, sans-serif;
+}
+
+/* =========================
+GRID CONTAINER
+========================= */
+.layout {
+    max-width: 120rem;
+    margin: 0 auto;
+    display: grid;
+    gap: 1.8rem;
+}
+
+/* =========================
+BLOCK STYLES
+========================= */
+.block {
+    border-radius: 1.4rem;
+    min-height: 10rem;
+}
+
+/* Color mapping */
+.hero {
+    background-color: var(--hero);
+}
+
+.nav {
+    background-color: var(--nav);
+}
+
+.article-1 {
+    background-color: var(--article-1);
+}
+
+.article-2 {
+    background-color: var(--article-2);
+}
+
+.article-3 {
+    background-color: var(--article-3);
+}
+
+.aside {
+    background-color: var(--aside);
+}
+
+.footer {
+    background-color: var(--footer);
+}
+
+/* =========================
+MEDIA QUERIES
+========================= */
