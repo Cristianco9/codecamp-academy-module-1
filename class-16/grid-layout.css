@@ -42,6 +42,8 @@ GRID CONTAINER
     margin: 0 auto;
     display: grid;
     gap: 1.8rem;
+    text-align: center;
+    font-size: 2rem;
 }
 
 /* =========================
