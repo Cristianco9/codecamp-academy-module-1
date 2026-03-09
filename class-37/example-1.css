@@ -90,7 +90,7 @@ FEATURES
 ANIMATION (REFINED)
 ===================== */
 .highlight {
-    border: 10px solid var(--accent);
+    border: 5px solid var(--accent);
     animation: glow 2.5s ease-in-out infinite;
 }
 
