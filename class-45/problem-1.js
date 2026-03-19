@@ -1,3 +1,5 @@
+// Author: Cristianco9 <GitHub>
+
 // storage the number in a variable
 var n = prompt("Enter a number: ");
 
