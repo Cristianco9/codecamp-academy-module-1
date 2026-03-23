@@ -5,9 +5,9 @@ var number1 = prompt("Enter the first number:");
 var number2 = prompt("Enter the second number:");
 
 // conditionals
-if (number1 > number2) {
+if (number1 < number2) {
     alert("The first number is larger");
-} else if (number2 > number1) {
+} else if (number2 < number1) {
     alert("The second number is larger"); 
 } else {
     alert("Both numbers are equal");
