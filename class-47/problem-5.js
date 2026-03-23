@@ -1,16 +1,18 @@
 // Author: Cristian Camilo Cortes Ortiz <Cristianco9>
 
 // require to the user two number
-var number1 = prompt("Enter the first number:");
-var number2 = prompt("Enter the second number:");
+var number1 = parseFloat(prompt("Enter the first number:"));
+var number2 = parseFloat(prompt("Enter the second number:"));
 
 // conditionals
-if (number1 < number2) {
+if (number1 > number2) {
     alert("The first number is larger");
-} else if (number2 < number1) {
+} else if (number2 > number1) {
     alert("The second number is larger"); 
-} else {
+} else if (number1 === number2) {
     alert("Both numbers are equal");
+} else {
+    alert("invalid input. Try again");
 }
 
 /*
