@@ -5,7 +5,7 @@ const yearsOfExperience = parseInt(prompt("Enter years of experience:"));
 const performanceScore = parseFloat(prompt("Enter performance score [0-100]"));
 
 // Validate the Inputs
-if (isNaN(yearsOfExperience) || yearsOfExperience < 0 || yearsOfExperience > 100) {
+if (isNaN(yearsOfExperience) || yearsOfExperience < 0 || yearsOfExperience > 80) {
     alert("Invalid years of experience.");
 }
 else if (isNaN(performanceScore) || performanceScore < 0 || performanceScore > 100) {
