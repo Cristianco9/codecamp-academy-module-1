@@ -91,7 +91,7 @@ age = 28     salary = 2200     employment = unemployed      creditScore = 720
 age = 33     salary = 2400     employment = employed        creditScore = 500
 => Loan rejected. Improve your credit score.
 
-age = "hello"    salary = 2000     employment = employed        creditScore = 700
+age = "hello"    salary = 2000     employment = employed    creditScore = 700
 => Invalid age. Try again.
 
 age = 16     salary = 2000     employment = employed        creditScore = 700
