@@ -62,6 +62,7 @@ Output: Unknown status code.
 
 Your solution must:
 
+- Create a flowchart
 - Be written in JavaScript
 - Run using Node.js
 - Use a switch statement
