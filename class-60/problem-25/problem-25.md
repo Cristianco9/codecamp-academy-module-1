@@ -62,7 +62,7 @@ Your program must:
 
 1. Use a `switch` statement based on the `operation` variable.
 2. Perform the correct mathematical operation using `num1` and `num2`.
-3. Print the result to the console.
+3. Display the result.
 4. Handle invalid operation codes using the `default` case.
 
 ---
@@ -95,7 +95,5 @@ Result: 100
 
 - Create a flowchart 
 - Use a switch statement.
-- Do not use if / else.
-- Do not request user input.
 - The operation must be selected only by the numeric code.
-- Print the result using console.log().
+- Display the final result.
