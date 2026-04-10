@@ -1,8 +1,8 @@
 // Author: Cristian Camilo Cortes Ortiz <Cristianco9>
 
 // Given variables
-const months = 6;
-const plan = 3;
+const months = 3;
+const plan = 2;
 
 // Global variable to store the monthly cost
 let monthlyCost;
@@ -44,8 +44,8 @@ if(isNaN(months)) {
             break;
         
         default:
-            monthlyCost = null;
             console.log("Invalid plan code.");
+            monthlyCost = null;
     }
 
     // Calculate and display the total cost if the plan was valid
