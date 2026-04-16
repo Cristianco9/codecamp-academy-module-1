@@ -5,7 +5,7 @@
 In many programming tasks, we need to **iterate through a sequence of numbers**, 
 apply **conditions**, and **accumulate results**. This exercise will help you 
 practice using **`for` loops**, **conditional statements**, and **basic arithmetic
- operations** in **JavaScript running with Node.js**.
+operations** in **JavaScript running with Node.js**.
 
 ### Objective
 
