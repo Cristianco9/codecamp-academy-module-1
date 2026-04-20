@@ -1,9 +1,13 @@
 ## Program Information
 
-**Organization:** PrimeTek Africa - Codecamp Academy  
+**Organization:** PrimeTek Africa - Codecamp Academy
+
 **Program:** Advanced Full-Stack Software Development  
+
 **Module:** Module 1 – Programming Foundations  
+
 **Instructor:** Cristian Camilo Cortes Ortiz
+
 **Instructor Role:** Systems Engineer & Full-Stack Software Development Instructor  
 
 This repository contains the official learning materials used during 
