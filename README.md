@@ -15,7 +15,8 @@ exercises, and programming challenges used during the classes.
 
 ## Instructor
 
-**Cristian Camilo**  
+**Cristian Camilo** 
+
 Systems Engineer specializing in **Full-Stack Web Development**, with professional 
 experience building web applications, RESTful APIs, and backend systems using 
 modern development practices.
