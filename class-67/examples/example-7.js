@@ -28,6 +28,8 @@ console.log("*****************************");
 let number = 12345;
 let reversed = 0;
 
+console.log(`Original number is: ${number}`);
+
 while (number > 0) {
 
     let lastDigit = number % 10;
