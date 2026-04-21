@@ -5,9 +5,12 @@
 In this challenge, you will create a simple program that counts how many numbers 
 a user enters before deciding to stop.  
 
-The program will repeatedly ask the user to enter a number and keep track of how many numbers have been entered. After each number, the system will ask the user if they want to continue or stop.
+The program will repeatedly ask the user to enter a number and keep track of how 
+many numbers have been entered. After each number, the system will ask the user 
+if they want to continue or stop.
 
-This problem is ideal for practicing the **`do...while` loop**, since the program must **run at least once** before checking if the user wants to continue.
+This problem is ideal for practicing the **`do...while` loop**, since the program 
+must **run at least once** before checking if the user wants to continue.
 
 ---
 
