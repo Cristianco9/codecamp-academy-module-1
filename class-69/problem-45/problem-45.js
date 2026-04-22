@@ -16,7 +16,7 @@ console.log("====================================");
 while (currentStock < minimumStock) {
     restockCount += 1;
     currentStock += restockAmount;
-    console.log(`Restock #${restockCount}`);
+    console.log(`Restock number: ${restockCount}`);
     console.log(`Current Inventory: ${currentStock}`);
     console.log("++++++++++++++++++++++++++++++++++++");    
 }
