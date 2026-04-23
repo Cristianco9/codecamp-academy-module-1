@@ -106,7 +106,7 @@ Here, the variable grades contains four values stored in a single structure.
 
 **Array Indexes:**
 
-Each element in an array has a position, called an index. In JavaScript, array 
+Each element in an array has a position, called an `index`. In JavaScript, array 
 indexing always starts at 0.
 
 | Index | Value |
@@ -177,7 +177,7 @@ Output:
 ["Apple", "Mango", "Orange"]
 ```
 
-The Length Property
+### The Length Property
 
 JavaScript arrays include a built-in property called length, which returns the 
 total number of elements in the array.
@@ -223,7 +223,7 @@ Output:
 The loop starts at index `0` and continues until it reaches the last element of 
 the array.
 
-Arrays with Different Data Types
+### Arrays with Different Data Types
 
 JavaScript arrays are flexible and can store different types of values.
 
@@ -236,7 +236,7 @@ console.log(mixedArray);
 Although this is allowed in JavaScript, in many programming practices it is 
 recommended to keep arrays consistent in the type of data they store.
 
-Why Arrays Are Important
+### Why Arrays Are Important
 
 Arrays are one of the most important data structures in programming because they 
 allow us to:
