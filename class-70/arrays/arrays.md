@@ -45,11 +45,18 @@ This capability significantly improves **code readability, maintainability, and
 scalability**. For example, arrays make it possible to easily process lists of 
 numbers, store records, manage collections of objects, or represent structured 
 datasets. In this course, arrays will be used extensively to demonstrate how programs 
-can manage and manipulate collections of data efficiently. Students will learn 
-how to:- Declare and initialize arrays- Access elements using indexes- Modify 
-array values- Traverse arrays using loops- Apply algorithms to collections of 
-dataUnderstanding arrays is a fundamental step toward mastering algorithmic 
-thinking and building more complex software systems.
+can manage and manipulate collections of data efficiently. 
+
+Students will learn how to:
+
+- Declare and initialize arrays
+- Access elements using indexes
+- Modify array values
+- Traverse arrays using loops
+- Apply algorithms to collections of dataUnderstanding 
+
+arrays is a fundamental step toward mastering algorithmic thinking and building 
+more complex software systems.
 
 
 # Introduction to Arrays in JavaScript
