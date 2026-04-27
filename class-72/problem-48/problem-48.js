@@ -10,7 +10,7 @@ console.log("\n***********************************************");
 console.log(`Total products in cart: ${cart.length}`);
 console.log("***********************************************");
 // 2. Add a new product "apples" to the cart
-// Method push => add a new item in the last position of the list
+// Method push() => add a new item in the last position of the list
 // Function that receive as parameter the new element
 cart.push("Apples");
 console.log("\n***********************************************");
@@ -19,7 +19,7 @@ console.log(`Total products in cart: ${cart.length}`);
 console.log("***********************************************");
 
 // 3. Remove the last product from the cart
-// Method pop => Remove the item in the last position of the list
+// Method pop() => Remove the item in the last position of the list
 // Function don't receive as parameter the element to delete, by
 // default delete always the last element
 cart.pop();
