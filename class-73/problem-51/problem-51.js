@@ -58,5 +58,3 @@ console.log(`\nHighest grade: ${highestGrade}`);
 
 // 8-9. Print number of students who passed
 console.log(`\nStudents passed: ${passedStudents}`);
-
-
