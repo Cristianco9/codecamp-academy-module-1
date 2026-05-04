@@ -33,7 +33,7 @@ function getStudentStatus(finalGrade) {
 }
 
 /**
- * Display the student final grade and if he passed ir failed
+ * Display the student final grade and if he passed or failed
  * @param {number} studentGrade 
  * @param {number} studentStatus 
  */
