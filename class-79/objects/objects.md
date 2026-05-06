@@ -227,4 +227,4 @@ Key takeaways:
 * Objects are flexible and widely used in real-world applications
 
 Understanding objects will prepare you to work with more advanced concepts such
-as classes, prototypes, and full OOP design pa
+as classes, prototypes, and full OOP design patterns.
