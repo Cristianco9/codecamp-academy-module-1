@@ -117,13 +117,21 @@ They are less ideal for:
 ## 9. Example SPA Flow (React-Based)
 
 User Action → React Router → Component Render
+
 ↓
+
 API Request (Axios/Fetch)
+
 ↓
+
 Backend REST API (Node/Django)
+
 ↓
+
 JSON Response
+
 ↓
+
 UI State Update → Re-render Component
 
 ---
